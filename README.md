@@ -60,16 +60,16 @@ Below are the screenshots of the dashboard showing the change in state of the th
 
 
 
-#**Running the Jar File**
+#Running the Jar File
 To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and commence using it.
 
 
-#**Arguments Required To Run The Application**:
+#Arguments Required To Run The Application.
 User should follow the detailed description at [#Features of U10SoccerTeamManager(Using The View/Dashboard)
 ](#features-of-u10soccerteammanager(using-the-view/dashboard)) section.  The first five described features represents the parameters the user must provide to the application, and must be provided to meet the minimum requirement of the program which requests that at least 10 players must be added before a team can be formed.
 
 
-#**Program Development Assumptions**
+#Program Development Assumptions.
 It should be noted that some assumptions had to be made within the constraint of the time required to build this application and provide a README.md file to explain U10SoccerTeamManager functionalities: The assumptions are:
 
 1. That this README.md is targeted at a user and not a programmer.

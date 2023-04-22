@@ -128,30 +128,83 @@ Going by the time constraints for building this application, the following limit
 
 2. When one of either firstname or lastname is missing, the program still permits the addition of players.  This behaviour needs to be fixed.
 
-3. When selecting a preferred playing position and user mistakenly chooses the prompt to select a position, the program breaks.
+3. When selecting a preferred playing position and user mistakenly chooses the prompt to select a position, clicking on the Add Player button should have notified the user to select a preferred position.
+
+4. Non-integer values can be used as skill level inputs.  This should be prevented.
+
+5. The error/notification area is not catching all exceptions being thrown.
+
+6. The outputs of the Team Players and Starting Lineup to the information area should have been formatted for easier readability.
+
+7. Currently, program can keep adding same player with same profile indefinitely.  This should be addressed.
+
+8. Program cannot uniquely identify if duplicate players or siblings are being enlisted.  This should be checked and user notified to make verifications.
+
+9. Null as a value and empty fields can be successfully enlisted with the Add Player button provided the preferred position is assigned, the skill level provided and the birthdate format adhered to.  This is a major flaw on the part of the program.
+
+10. The UML diagram is not updated to the current state of the entire implementation and so is not reliable for replicating the implementation of this program.
 
 
+<br />
+
+# Changes Made To The Program After Second Submission.
+1. The Model's Constructor was updated so that while it previously took in a player list, now it takes in no parameter.  This was required to ensure that the model can in coupling with the Controller allow players to be added individually through the view and controller for the formation of a raw list. This necesitated the removal of the team list parameter and the introduction of the isTeamFinalized instance attribute which is used to control the minimum player number requirement for a raw player list formation.  It would be noticed in the new code too that some of the check functionalities for the team list previously at the Constructor have now been relocated for management to the isFinalPlayerList() method.
+
+2. The addPlayerToList() method was added to the Model to provide the required coupling to the Controller so that appropriate user inputs converts to the relevant parameters for player addition to the raw list required for team formation.
+
+3. The isFinalPlayerList() method was added to provide all the checks to the raw ArrayList of players being built using the instance attribute "teamPlayers".  In this method, we confirm that the list being built is not empty, is above the required minimum, generated and appended the jersey numbers to the first 20 players, and close the raw list so that no additional players can be added once jersey numbers have been assigned.
+
+4. The countPlayersOnRawList() method was used to provide a hook to the Controller so that with it, the Model can inform the user if they have met the requirements of the number of players needed enlisted before a team can be formed.
+
+5. Aside above newly added methods, minor updates had to be made to dependent methods to ensure that required functionality carried through to the Controller and View.
 
 
+<br />
+
+# Conclusion.
+U10SoccerTeamManager still requires developmental work and aside fixing the bugs highlighted above it would be help serve its true purpose if additional metrics were introduces to ensure that not only Skill level is used to identify the best players.  Other metrics that can be used include, player height, player's metric for advancing team cohesion, tracking player infractions as a function to benching them, etc.
+
+I will in future look to this.
 
 
+# Bibliography
 
 
+   -  University of Texas. "Explanation of Deep and Shallow Copying", (n.d.). Retrieved March 27, 2023 from https://www.cs.utexas.edu/~scottm/cs307/handouts/deepCopying.htm
+
+   -  Oracle, "Class LocalDate", (n.d.). Retrieved March 29, 2023, from https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html 
+
+   -  L. Gupta, - HowToDoInJava - "Convert String to LocalDate in Java", February 7, 2023. Retrieved March 29, 2023, from https://howtodoinjava.com/java/date-time/localdate-parse-string/ Last Updated: 
+
+   -  Oracle Java Documentation "Class Collections", (n.d.). Retrieved March 29, 2023, from https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collections.html
 
 
+   -  Stackoverflow "Collections.sort with multiple fields", (n.d.). Retrieved April 10, 2023, from https://stackoverflow.com/questions/4258700/collections-sort-with-multiple-fields
+
+   -  JavaTPoint. “Java Swing Tutorial - javatpoint,” (n.d.). www.javatpoint.com. Retrieved April 16, 2023, from https://www.javatpoint.com/java-swing.
+
+   -  Stackoverflow. "How to return the string equivalent of an enum value", (n.d.). Retrieved April 16, 2023, from https://stackoverflow.com/questions/66210201/how-to-return-the-string-equivalent-of-an-enum-value
+
+   -  Baeldung. "Attaching Values to Java Enum", February 12, 2023, Retrieved April 16, 2023, from https://www.baeldung.com/java-enum-values
+
+   -  JavaTPoint, "Java GridBagLayout", (n.d.). Retrieved April 16, 2023, from https://www.javatpoint.com/java-gridbaglayout, 
+
+  -  Oracle Java Documentation, "How to use GridBagLayout", (n.d.).  Retrieved April 15, 2023, From https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html
+ 
+  -  TutorialsPoint, "SWING - GridBagLayout Class", (n.d.). Retrieved April 16, 2023, from https://www.tutorialspoint.com/swing/swing_gridbaglayout.htm
+
+  -  FAQs, "clearJTextArea", (n.d.). Retrieved April 18, 2023, from https://coderanch.com/t/339140/java/clear-JTextArea 
+  
+   -  Java Swing , "Enable or disable buttons in Swing" - 2016. Retrieved April 18, 2023. from http://www.java2s.com/example/java/swing/enable-or-disable-buttons-in-swing.html
 
 
+   -  Oracle, Java Documentation, The Java Tutorials "How to Use Text Fields", (n.d.). Retrieved April 18, 2023, from https://docs.oracle.com/javase/tutorial/uiswing/components/textfield.html
+
+   -  Oracle, "Class Component", (n.d.).  Retrieved April 18, 2023, from     https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/java/awt/Component.html#disableEvents(long)
+
+   -  Cambria Heights School Descrict, "Lesson 7 Part 2 Flags", (n.d.). Retrieved April 19, 2023, from   https://www.chsd1.org/cms/lib/PA01001446/Centricity/Domain/189/Lesson7%20Part%202%20Notes.pdf
+
+   -  Educative. "Ternary operator in Java." (n.d.). Retrieved April 20, 2023, from https://www.educative.io/answers/ternary-operator-in-java?utm_campaign=brand_educative&utm_source=google&utm_medium=ppc&utm_content=performance_max&eid=5082902844932096&utm_term=&utm_campaign=%5BNew%5D+Performance+Max&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=18511913007&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw6IiiBhAOEiwALNqncSrU5yloTIpv8RvgtJ9z6qO92y3gTSs2T3w3kbUVqjr78CVGZjfOThoCuUMQAvD_BwE
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+   -  GitHub Docs "Basic writing and formatting syntax", (n.d.). Retrieved April 21, 2023 from https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

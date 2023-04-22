@@ -96,22 +96,39 @@ User should follow the detailed description at [#Features of U10SoccerTeamManage
 It should be noted that some assumptions had to be made within the constraint of the time required to build this application and provide a README.md file to explain U10SoccerTeamManager functionalities: The assumptions are:
 
 1. That this README.md is targeted at a user and not a programmer.
+
 2. That distinct player profiles are added to the application.
+
 3. That no player below the age of 5 or exactly 10 years old and above should be able to join this team.
+
 4. That all player profile information are provided before the “Add Player” button would be clicked.
+
 5. That valid inputs are taken and no attempt is made by user to break the application by passing extraneous data types into each text field.
+
 6. That all fields are not expected to pass null or empty values through.
+
 7. That a Preferred Playing position is always selected for a player
+
 8. That the user is aware that clicking on the Create Team list would finalize the raw list, that is, prevent any addition of new players to the raw list.
+
 9. That all actions are performed by mouse clicks.
+
 10. That user carries the obligation to ensure that same player information is not entered twice. Hence the reason why the text fields are cleared in readiness for new inputs.
+
 11. That after create team button is pressed, it is not expected that user would add more players, but only proceed to get the team players or get the starting lineup.
+
 12. That basic functionalities to extract a Team list and Starting lineup are required.
 
 
+<br />
 
+# Limitations of this program.
+Going by the time constraints for building this application, the following limitations are evident:
+1. Clicking on "Add Player" button when all text fields are empty would break the program.  This should not be so but should cause the appropriate errors for rejecting null inputs and invalid types to be raised.  However, this could not be fixed before submission, hence the assumption that user would be responsible for ensuring valid inputs.
 
+2. When one of either firstname or lastname is missing, the program still permits the addition of players.  This behaviour needs to be fixed.
 
+3. When selecting a preferred playing position and user mistakenly chooses the prompt to select a position, the program breaks.
 
 
 

@@ -27,7 +27,7 @@ The features available on the U10SoccerTeamManager application through it's Dash
 Below is the section of the dashboard that hosts the above explained features.  These set of features are also the parameters that the user must supply in order to add the required number of players for team formation or generation of starting lineup.
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 26 43" src="https://user-images.githubusercontent.com/46625599/233762430-6d126385-6714-41f7-9019-bc176691e837.png">
-   Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players.
+   Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players. <br>
 
 <br />
 
@@ -41,7 +41,7 @@ Below is the section of the dashboard that hosts the above explained features.  
 <br />
 
 <img width="908" alt="Screenshot 2023-04-21 at 21 25 30" src="https://user-images.githubusercontent.com/46625599/233762390-1686aec0-cae7-4e74-86d6-f9e32a150291.png">
-Figure 2: Dashboard's screenshort showing notification area.
+Figure 2: Dashboard's screenshort showing notification area. <br>
 
 
 <br />
@@ -57,24 +57,24 @@ Below are the screenshots of the dashboard showing the change in state of the th
 <br />
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 42 12" src="https://user-images.githubusercontent.com/46625599/233762958-e4cf9dca-68e0-42d1-9d9a-eb43f1351061.png">
-Figure 3: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons deactivated because minimum player requirement to form a raw list has not been met.
+Figure 3: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons deactivated because minimum player requirement to form a raw list has not been met. <br>
 
 <br />
 
 
 <img width="907" alt="Screenshot 2023-04-21 at 21 46 36" src="https://user-images.githubusercontent.com/46625599/233763095-9de18344-48d3-45dc-85a5-45761dc2fb2b.png">
-Figure 4: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons activate because minimum player requirement was met and "Create Team" button was clicked.
+Figure 4: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons activate because minimum player requirement was met and "Create Team" button was clicked. <br>
 
 <br />
 
 
-11. **The Information Area**: This is the text area where the information about the players who made the team list and starting lineup list are displayed.  Figure 5 shows the "Players on Starting Lineup" list as an example.
+11. **The Information Area**: This is the text area where the information about the players who made the team list and starting lineup list are displayed.  Figure 5 shows the "Players on Starting Lineup" list as an example. 
 
 
 <br />
 
 <img width="915" alt="Screenshot 2023-04-21 at 21 50 32" src="https://user-images.githubusercontent.com/46625599/233763205-3e33defc-2cea-4b84-adb4-5fa8a8ca72ec.png">
-Figure 4: Dashboard's screenshort showing information area for display Team Players and the Starting Lineup.
+Figure 4: Dashboard's screenshort showing information area for display Team Players and the Starting Lineup. <br>
 
 <br />
 

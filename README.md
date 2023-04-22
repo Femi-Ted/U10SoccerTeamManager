@@ -26,7 +26,7 @@ The features available on the U10SoccerTeamManager application through it's Dash
 Below is the section of the dashboard that hosts the above explained features.  These set of features are also the parameters that the user must supply in order to add the required number of players for team formation or generation of starting lineup.
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 26 43" src="https://user-images.githubusercontent.com/46625599/233762430-6d126385-6714-41f7-9019-bc176691e837.png">
-   _Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players
+   _Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players_
 
 
 

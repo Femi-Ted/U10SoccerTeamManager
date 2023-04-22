@@ -125,7 +125,7 @@ It should be noted that some assumptions had to be made within the constraint of
 
 5. That valid inputs are taken and no attempt is made by user to break the application by passing extraneous data types into each text field.
 
-6. That all fields are not expected to pass null or empty values through.
+6. That user is not expected to pass null or empty values to the fields.
 
 7. That a Preferred Playing position is always selected for a player
 
@@ -137,7 +137,7 @@ It should be noted that some assumptions had to be made within the constraint of
 
 11. That after create team button is pressed, it is not expected that user would add more players, but only proceed to get the team players or get the starting lineup.
 
-12. That basic functionalities to extract a Team list and Starting lineup are required.
+12. That only the basic functionalities to extract a Team list and Starting lineup are required by the user.
 
 
 <br />
@@ -163,6 +163,9 @@ Going by the time constraints for building this application, the following limit
 9. Null as a value and empty fields can be successfully enlisted with the Add Player button provided the preferred position is assigned, the skill level provided and the birthdate format adhered to.  This is a major flaw on the part of the program.
 
 10. The UML diagram is not updated to the current state of the entire implementation and so is not reliable for replicating the implementation of this program.
+
+11. The program has not been extensively tested with 100% coverage and so could have hidden bugs that may show up during actual use.
+
 
 
 <br />

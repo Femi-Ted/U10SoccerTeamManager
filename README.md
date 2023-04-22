@@ -60,4 +60,4 @@ Below are the screenshots of the dashboard showing the change in state of the th
 To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and commence using it.
 
 #Arguments Required To Run The Application:
-User should follow the detailed description of [Features of U10SoccerTeamManager (Using The View/Dashboard)] <br>
+User should follow the detailed description of [Features of U10SoccerTeamManager (Using The View/Dashboard)](#features-of-u10SoccerTeamManager-(using-the-view/dashboard)) <br>

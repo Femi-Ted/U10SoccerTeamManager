@@ -101,7 +101,6 @@ To run the Jar file or the U10SoccerTeamManager application, user should double 
    6. Click on "Get Starting Lineup" to view the list of players who made the starting lineup.  Here player information is would be displayed in the order of firstname, lastname, assigned jersey number and officially assigned/approved playing positions.
 
    7. User can close the program once done.
-   8. 
 
 <br />
 

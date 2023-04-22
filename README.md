@@ -26,7 +26,7 @@ The features available on the U10SoccerTeamManager application through it's Dash
 Below is the section of the dashboard that hosts the above explained features.  These set of features are also the parameters that the user must supply in order to add the required number of players for team formation or generation of starting lineup.
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 26 43" src="https://user-images.githubusercontent.com/46625599/233762430-6d126385-6714-41f7-9019-bc176691e837.png">
-   *Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players*
+   * Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players *
 
 
 
@@ -37,7 +37,7 @@ Below is the section of the dashboard that hosts the above explained features.  
 7.  **Error/Notification Text Field**: This text field section notifies the user of the many different change of states happening when player information is being added to the application.  These notifications includes, when a player is above or below the required age, the required number of player that must be added before actual team formation can occur, when players are successfully added, when skill level provided for a player is invalid, etc.  This section is highlighted in figure 2 below.
 
 <img width="908" alt="Screenshot 2023-04-21 at 21 25 30" src="https://user-images.githubusercontent.com/46625599/233762390-1686aec0-cae7-4e74-86d6-f9e32a150291.png">
-                        *Figure 2: Dashboard's screenshort showing notification area.*
+                        * Figure 2: Dashboard's screenshort showing notification area. *
 
 8.  **Create Team Button**: This button allows the user to create a list of players that would be considered to be members of the team. The "Create Team Button" is deactivated until at least 10 players have been added to the raw list. This means that the raw list of players is controlled to be of the size of 10 or greater, but not less.  Once the "Create Team" button is active, it means there are at least 10 players in the raw list.  Clicking this button would finalize the raw list and prevent addition of new players while setting the stage for the sorting of players by skill level ready for team formation.
 
@@ -48,16 +48,16 @@ Below is the section of the dashboard that hosts the above explained features.  
 Below are the screenshots of the dashboard showing the change in state of the three buttons whose operations are described above.  Figure 3 shows a screenshot of the buttons still deactivated when the minimum required number of players for a raw list has not be met versus Figure 4 which shows a screenshot of the buttons now active after the "Create Team" button was clicked when the minimum players that should be on the raw list was met.
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 42 12" src="https://user-images.githubusercontent.com/46625599/233762958-e4cf9dca-68e0-42d1-9d9a-eb43f1351061.png">
-*Figure 3: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons deactivated because minimum player requirement to form a raw list has not been met.*
+* Figure 3: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons deactivated because minimum player requirement to form a raw list has not been met. *
 
 <img width="907" alt="Screenshot 2023-04-21 at 21 46 36" src="https://user-images.githubusercontent.com/46625599/233763095-9de18344-48d3-45dc-85a5-45761dc2fb2b.png">
-*Figure 4: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons activate because minimum player requirement was met and "Create Team" button was clicked.*
+* Figure 4: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons activate because minimum player requirement was met and "Create Team" button was clicked. *
 
 
 11. **The Information Area**: This is the text area where the information about the players who made the team list and starting lineup list are displayed.  Figure 5 shows the "Players on Starting Lineup" list as an example.
 
 <img width="915" alt="Screenshot 2023-04-21 at 21 50 32" src="https://user-images.githubusercontent.com/46625599/233763205-3e33defc-2cea-4b84-adb4-5fa8a8ca72ec.png">
-*Figure 4: Dashboard's screenshort showing information area for display Team Players and the Starting Lineup.*
+* Figure 4: Dashboard's screenshort showing information area for display Team Players and the Starting Lineup. *
 
 
 

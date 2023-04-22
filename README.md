@@ -66,7 +66,7 @@ To run the Jar file or the U10SoccerTeamManager application, user should double 
 
 # Arguments Required To Run The Application.
 User should follow the detailed description at [#Features of U10SoccerTeamManager(Using The View/Dashboard)
-](#features-of-u10soccerteammanager-using-the-view/dashboard) section.  The first five described features represents the parameters the user must provide to the application, and must be provided to meet the minimum requirement of the program which requests that at least 10 players must be added before a team can be formed.
+](#features-of-u10soccerteammanagerusing-the-viewdashboard) section.  The first five described features represents the parameters the user must provide to the application, and must be provided to meet the minimum requirement of the program which requests that at least 10 players must be added before a team can be formed.
 
 
 # Program Development Assumptions.

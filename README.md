@@ -14,15 +14,15 @@ Therefore, rather than leave this decision making process to a human who could b
 
 The features available on the U10SoccerTeamManager application through it's Dashboard are:
 
-1. **First Name Text Field**: This allows the user to input a player's firstname. It is assumed that user would be responsible for inputing valid player's firstnames.
+1. **First Name Text Field**: This allows the user to input a player's firstname. It is assumed that user would be responsible for inputing valid player's firstnames. Under the hood, this is a String input.
 
-2. **Last Name Text Field**: This allows the user to input a player's lastname. It is assumed that user would be responsible for inputing valid player's lastname.
+2. **Last Name Text Field**: This allows the user to input a player's lastname. It is assumed that user would be responsible for inputing valid player's lastname.  Under the hood, this is a String input.
 
-3. **Birthdate Text Field**: This allows the user to input a player's birthdate.  Player's birthdate must be of the right format "yyyy-MM-dd" and must be representative of a player not less than 5 years of age nor of age 10 and above. It is assumed that user would ensure that integer values are used in the provided format to represent the birthdate.
+3. **Birthdate Text Field**: This allows the user to input a player's birthdate.  Player's birthdate must be of the right format "yyyy-MM-dd" and must be representative of a player not less than 5 years of age nor of age 10 and above. It is assumed that user would ensure that integer values are used in the provided format to represent the birthdate.  Under the hood, this is a String input that is converted to a LocalDate object.
 
-4. **Preferred Position**: This allows the user to select a player's preferred playing position from a drop down list. In the backend, the selected player's preferred playing position is only approved as their official playing position when the player's skill level is the highest level, a 5, and only when the position is available when being processed. For example, in the case of the GOALIE position, once a GOALIE is assigned to the first Player on the list with the highest skill level, all other player's with the preferred playing position of a GOALIE and who have made the team, are officially reassigned another playing position based on a randomization algorithm.  Any player that makes the team list and does not have a skill level of 5 is refused their preferred playing position and rather gets assigned a random position based on availablity. It is assumed that user would ensure that the appropriate playing position is selected for each player being added.
+4. **Preferred Position**: This allows the user to select a player's preferred playing position from a drop down list. In the backend, the selected player's preferred playing position is only approved as their official playing position when the player's skill level is the highest level, a 5, and only when the position is available when being processed. For example, in the case of the GOALIE position, once a GOALIE is assigned to the first Player on the list with the highest skill level, all other player's with the preferred playing position of a GOALIE and who have made the team, are officially reassigned another playing position based on a randomization algorithm.  Any player that makes the team list and does not have a skill level of 5 is refused their preferred playing position and rather gets assigned a random position based on availablity. It is assumed that user would ensure that the appropriate playing position is selected for each player being added. Under the hood, this is an Enumerator Class input that is converted from the user's text input.
 
-5. **Skill Level Text Field**: This allows the user to input a player's skill level between 0 and 5 inclusive.  The skill level player detail is used to sort player in a descending order of skill level so that the best players are always selected first.  It is assumed that user would ensure valid integer skill level input for each player being added.
+5. **Skill Level Text Field**: This allows the user to input a player's skill level between 0 and 5 inclusive.  The skill level player detail is used to sort player in a descending order of skill level so that the best players are always selected first.  It is assumed that user would ensure valid integer skill level input for each player being added.  Under the hood, this is an interger input that is converted from the user's text input.
 
 Below is the section of the dashboard that hosts the above explained features.  These set of features are also the parameters that the user must supply in order to add the required number of players for team formation or generation of starting lineup.
 
@@ -80,7 +80,28 @@ Figure 4: Dashboard's screenshort showing information area for display Team Play
 
 
 # Running the Jar File
-To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and commence using it.
+To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and follow these steps:
+
+   1. Input player details while ensuring they are accurate and valid input types as described in [#Features of U10SoccerTeamManager(Using The View/Dashboard)
+](#features-of-u10soccerteammanagerusing-the-viewdashboard) section.  User details required are:
+         -  player's firstname.
+         -  player's lastname.
+         -  player's birthdate.
+         -  player's preferred playing position.
+         -  player's skill level.
+         
+   2. On supplying all the above player details into their appropriate text fields, click the "Add Player" button.
+   
+   3. Ensure that on a minimum, 10 players are added successfully.  More players can be added without restrictions once this minimum is attained. 
+   
+   4. Click on the "Create Team" button to finalize the list of players and halt further addition of players to the raw list.
+   
+   5. Click on "Get Team Players" to view the list of players who made the team.  You will only see from 10 (minimum) or 20 (maximum) players displayed with their firstname, lastname and assigned jersey number, all arranged lexicographically by their lastname.
+   
+   6. Click on "Get Starting Lineup" to view the list of players who made the starting lineup.  Here player information is would be displayed in the order of firstname, lastname, assigned jersey number and officially assigned/approved playing positions.
+
+   7. User can close the program once done.
+   8. 
 
 <br />
 

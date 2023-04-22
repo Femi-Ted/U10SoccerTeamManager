@@ -2,12 +2,14 @@
 
 This is the implemenation of an under 10 soccer team manager.  An application that allows a user to create a team of players from added list of players and from this list generate a starting lineup.
 
+
 #An Overview of the problem:
 It is sometimes difficult to make a decision on which players in a soccer club should be allowed to play in a team let alone join the starting line up of players for the season.  Decisions like who get's to be the Forward, the Goalie, the Defender etc.; who gets benched, who gets assigned a particular jersey number outside player personal preferrences, who is probably too young to play considering age disparities, provides many constraints for a good decision that would alway guarantee build-up of a strong team towards team success during any playing season.  
 
 Therefore, rather than leave this decision making process to a human who could be influenced by external forces, this application aims to automate the process using a data orientated approach to decide which player gets to make the team and be on the starting lineup using features designed to capture relevant data from the user/coach.
 
-#Features of U10SoccerTeamManager (Using The View/Dashboard)
+
+#Features of U10SoccerTeamManager(Using The View/Dashboard)
 
 The features available on the U10SoccerTeamManager application through it's Dashboard are:
 
@@ -27,6 +29,7 @@ Below, the section of the dashboard that hosts the above explained features is s
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 26 43" src="https://user-images.githubusercontent.com/46625599/233762430-6d126385-6714-41f7-9019-bc176691e837.png">
    *Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players*
+
 
 
 #Other Features of U10SoccerTeamManager (Using The View/Dashboard) <br>
@@ -56,11 +59,14 @@ Below are the screenshots of the dashboard showing the change in state of the th
 *Figure 4: Dashboard's screenshort showing information area for display Team Players and the Starting Lineup.*
 
 
+
 #Running the Jar File
 To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and commence using it.
 
+
 #Arguments Required To Run The Application:
-User should follow the detailed description of [Features of U10SoccerTeamManager](#features-of-u10soccerteammanager)
+User should follow the detailed description of [#Features of U10SoccerTeamManager(Using The View/Dashboard)
+](#features-of-u10soccerteammanager(using-the-view/dashboard))
 
 
 

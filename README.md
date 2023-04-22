@@ -3,13 +3,13 @@
 This is the implemenation of an under 10 soccer team manager.  An application that allows a user to create a team of players from added list of players and from this list generate a starting lineup.
 
 
-#An Overview of the problem:
+# An Overview of the problem:
 It is sometimes difficult to make a decision on which players in a soccer club should be allowed to play in a team let alone join the starting line up of players for the season.  Decisions like who get's to be the Forward, the Goalie, the Defender etc.; who gets benched, who gets assigned a particular jersey number outside player personal preferrences, who is probably too young to play considering age disparities, provides many constraints for a good decision that would alway guarantee build-up of a strong team towards team success during any playing season.  
 
 Therefore, rather than leave this decision making process to a human who could be influenced by external forces, this application aims to automate the process using a data orientated approach to decide which player gets to make the team and be on the starting lineup using features designed to capture relevant data from the user/coach.
 
 
-#Features of U10SoccerTeamManager(Using The View/Dashboard)
+# Features of U10SoccerTeamManager(Using The View/Dashboard)
 
 The features available on the U10SoccerTeamManager application through it's Dashboard are:
 
@@ -32,7 +32,7 @@ Below, the section of the dashboard that hosts the above explained features is s
 
 
 
-#Other Features of U10SoccerTeamManager (Using The View/Dashboard) <br>
+# Other Features of U10SoccerTeamManager (Using The View/Dashboard) <br>
 7.  **Error/Notification Text Field**: This text field section notifies the user of the many different change of states happening when player information is being added to the application.  These notifications includes, when a player is above or below the required age, the required number of player that must be added before actual team formation can occur, when players are successfully added, when skill level provided for a player is invalid, etc.  This section is highlighted in figure 2 below.
 
 <img width="908" alt="Screenshot 2023-04-21 at 21 25 30" src="https://user-images.githubusercontent.com/46625599/233762390-1686aec0-cae7-4e74-86d6-f9e32a150291.png">
@@ -60,16 +60,16 @@ Below are the screenshots of the dashboard showing the change in state of the th
 
 
 
-#Running the Jar File
+# Running the Jar File
 To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and commence using it.
 
 
-#Arguments Required To Run The Application.
+# Arguments Required To Run The Application.
 User should follow the detailed description at [#Features of U10SoccerTeamManager(Using The View/Dashboard)
 ](#features-of-u10soccerteammanager(using-the-view/dashboard)) section.  The first five described features represents the parameters the user must provide to the application, and must be provided to meet the minimum requirement of the program which requests that at least 10 players must be added before a team can be formed.
 
 
-#Program Development Assumptions.
+# Program Development Assumptions.
 It should be noted that some assumptions had to be made within the constraint of the time required to build this application and provide a README.md file to explain U10SoccerTeamManager functionalities: The assumptions are:
 
 1. That this README.md is targeted at a user and not a programmer.

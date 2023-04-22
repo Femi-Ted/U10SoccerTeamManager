@@ -23,9 +23,7 @@ The features available on the U10SoccerTeamManager application through it's Dash
 
 5. **Skill Level Text Field**: This allows the user to input a player's skill level between 0 and 5 inclusive.  The skill level player detail is used to sort player in a descending order of skill level so that the best players are always selected first.  It is assumed that user would ensure valid integer skill level input for each player being added.
 
-6. **The Add Player Button**: This allows the user to add a player for processing and in so doing build a raw list of players that are available in the club and ready for assignment to a team.
-
-Below, the section of the dashboard that hosts the above explained features is shown in figure 1.
+Below is the section of the dashboard that hosts the above explained features.  These set of features are also the parameters that the user must supply in order to add the required number of players for team formation or generation of starting lineup.
 
 <img width="912" alt="Screenshot 2023-04-21 at 21 26 43" src="https://user-images.githubusercontent.com/46625599/233762430-6d126385-6714-41f7-9019-bc176691e837.png">
    *Figure 1: Dashboard's screenshort showing section that takes in player profile details for addition into raw list of players*
@@ -33,6 +31,9 @@ Below, the section of the dashboard that hosts the above explained features is s
 
 
 # Other Features of U10SoccerTeamManager (Using The View/Dashboard) <br>
+
+6. **The Add Player Button**: This allows the user to add a player for processing and in so doing build a raw list of players that are available in the club and ready for assignment to a team.
+
 7.  **Error/Notification Text Field**: This text field section notifies the user of the many different change of states happening when player information is being added to the application.  These notifications includes, when a player is above or below the required age, the required number of player that must be added before actual team formation can occur, when players are successfully added, when skill level provided for a player is invalid, etc.  This section is highlighted in figure 2 below.
 
 <img width="908" alt="Screenshot 2023-04-21 at 21 25 30" src="https://user-images.githubusercontent.com/46625599/233762390-1686aec0-cae7-4e74-86d6-f9e32a150291.png">

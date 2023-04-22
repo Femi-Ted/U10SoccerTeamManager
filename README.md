@@ -170,7 +170,9 @@ Going by the time constraints for building this application, the following limit
 
 <br />
 
-# Changes Made To The Program After Second Submission.
+# Changes Made To The Program After Second Submission (Updates to the Model).
+The changes highlighted here are specifically related to those made in the Model and other classes within the Model and so does not cover the Controller's or View's design. Aside from variable name updates, slight logical adjustments in code which affected other dependents methods, the below are the major changes made to the Model to get the Controller coupled to it and the View to the Controller.
+
 1. The Model's Constructor was updated so that while it previously took in a player list, now it takes in no parameter.  This was required to ensure that the model can in coupling with the Controller allow players to be added individually through the view and controller for the formation of a raw list. This necesitated the removal of the team list parameter and the introduction of the isTeamFinalized instance attribute which is used to control the minimum player number requirement for a raw player list formation.  It would be noticed in the new code too that some of the check functionalities for the team list previously at the Constructor have now been relocated for management to the isFinalPlayerList() method.
 
 2. The addPlayerToList() method was added to the Model to provide the required coupling to the Controller so that appropriate user inputs converts to the relevant parameters for player addition to the raw list required for team formation.
@@ -178,8 +180,6 @@ Going by the time constraints for building this application, the following limit
 3. The isFinalPlayerList() method was added to provide all the checks to the raw ArrayList of players being built using the instance attribute "teamPlayers".  In this method, we confirm that the list being built is not empty, is above the required minimum, generated and appended the jersey numbers to the first 20 players, and close the raw list so that no additional players can be added once jersey numbers have been assigned.
 
 4. The countPlayersOnRawList() method was used to provide a hook to the Controller so that with it, the Model can inform the user if they have met the requirements of the number of players needed enlisted before a team can be formed.
-
-5. Aside above newly added methods, minor updates had to be made to dependent methods to ensure that required functionality carried through to the Controller and View.
 
 
 <br />

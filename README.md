@@ -31,6 +31,7 @@ Below is the section of the dashboard that hosts the above explained features.  
 
 <br />
 
+
 # Other Features of U10SoccerTeamManager (Using The View/Dashboard) <br>
 
 6. **The Add Player Button**: This allows the user to add a player for processing and in so doing build a raw list of players that are available in the club and ready for assignment to a team.
@@ -40,7 +41,8 @@ Below is the section of the dashboard that hosts the above explained features.  
 <br />
 
 <img width="908" alt="Screenshot 2023-04-21 at 21 25 30" src="https://user-images.githubusercontent.com/46625599/233762390-1686aec0-cae7-4e74-86d6-f9e32a150291.png">
-                        Figure 2: Dashboard's screenshort showing notification area.
+Figure 2: Dashboard's screenshort showing notification area.
+
 
 <br />
 
@@ -59,12 +61,15 @@ Figure 3: Dashboard's screenshort showing "Create Team", "Get Team Players" and 
 
 <br />
 
+
 <img width="907" alt="Screenshot 2023-04-21 at 21 46 36" src="https://user-images.githubusercontent.com/46625599/233763095-9de18344-48d3-45dc-85a5-45761dc2fb2b.png">
 Figure 4: Dashboard's screenshort showing "Create Team", "Get Team Players" and "Get Starting Lineup" buttons activate because minimum player requirement was met and "Create Team" button was clicked.
 
 <br />
 
+
 11. **The Information Area**: This is the text area where the information about the players who made the team list and starting lineup list are displayed.  Figure 5 shows the "Players on Starting Lineup" list as an example.
+
 
 <br />
 
@@ -73,16 +78,19 @@ Figure 4: Dashboard's screenshort showing information area for display Team Play
 
 <br />
 
+
 # Running the Jar File
 To run the Jar file or the U10SoccerTeamManager application, user should double click on the file to load the dashboard and commence using it.
 
 <br />
+
 
 # Arguments Required To Run The Application.
 User should follow the detailed description at [#Features of U10SoccerTeamManager(Using The View/Dashboard)
 ](#features-of-u10soccerteammanagerusing-the-viewdashboard) section.  The first five described features represents the parameters the user must provide to the application, and must be provided to meet the minimum requirement of the program which requests that at least 10 players must be added before a team can be formed.
 
 <br />
+
 
 # Program Development Assumptions.
 It should be noted that some assumptions had to be made within the constraint of the time required to build this application and provide a README.md file to explain U10SoccerTeamManager functionalities: The assumptions are:
